@@ -6,16 +6,6 @@ Objetivo: predecir la duración de viajes de taxi en segundos a partir de inform
 Métrica oficial: RMSLE.
 Competición: https://www.kaggle.com/competitions/nyc-taxi-trip-duration/overview
 
-### Estructura del repositorio
-.
-├─ datasets/
-│  ├─ train/train.csv
-│  ├─ test/test.csv
-│  └─ sample_submission/sample_submission.csv
-├─ 01_proyecto.ipynb
-├─ submission.csv
-├─ submission.zip
-└─ .gitignore
 
 ### Datos
 Kaggle provee dos archivos principales: train.csv y test.csv. El conjunto de train incluye el objetivo trip_duration y la fecha de recogida. Test no tiene trip_duration.
